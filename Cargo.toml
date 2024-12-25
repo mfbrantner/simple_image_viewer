@@ -1,0 +1,8 @@
+[package]
+name = "simple-image-viewer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+sdl2 = { version = "0.37.0", features = ["image"] }
