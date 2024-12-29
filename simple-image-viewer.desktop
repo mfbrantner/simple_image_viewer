@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=simple-image-viewer
+Comment=Simple image viewer
+Exec=simple-image-viewer %f
+Terminal=false
+Type=Application
+Categories=Graphics;Viewer;
+MimeType=image/png;image/jpeg;image/webp;
