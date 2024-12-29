@@ -5,12 +5,16 @@ Simple minimal image viewer, built using SDL2.
 Requires SDL2 and SDL2_image.
 
 Point the binary to an image, or a folder containing images.
-`$binary path/to/image/or/folder/of/images`
+`simple-image-viewer path/to/image/or/folder/of/images`
 
-Navigate with left/right arrow keys.
-Close with Q.
+- Navigate with left/right arrow keys.
+- Close with Q.
+- Supported image formats: `jpg, png, webp`.
 
-Supported image formats: `jpg, png, webp`.
+## Installation
+- Run `cargo install --path /path/to/crate` to install `simple-image-viewer` (will usually be placed in `~/.cargo/bin`).
+- Move the provided .desktop file to `~/.local/share/applications`.
+- Run: `update-desktop-database ~/.local/share/applications`.
 
 ## Known Issues
 - Panics when attempting to open an image that was in the folder at startup, but has been renamed/deleted/moved since
